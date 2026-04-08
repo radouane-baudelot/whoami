@@ -1,0 +1,5 @@
+# Données sensibles — ne jamais committer
+contact.json
+
+# Fichiers de test locaux
+*.pdf

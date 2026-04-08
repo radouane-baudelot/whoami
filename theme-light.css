@@ -1,0 +1,139 @@
+/* ─── Theme Light : GitHub Light Default ────────────────────────────────────── */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+  --gh-bg:      #ffffff;
+  --gh-panel:   #f6f8fa;
+  --gh-hover:   #eaeef2;
+  --gh-border:  #d0d7de;
+  --gh-fg:      #1f2328;
+  --gh-comment: #57606a;
+  --gh-keyword: #cf222e;
+  --gh-string:  #0550ae;
+  --gh-func:    #8250df;
+  --gh-var:     #953800;
+  --gh-link:    #0969da;
+  --gh-green:   #1a7f37;
+  --gh-mono:    'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+}
+
+body { background: #eaeef2; color: var(--gh-fg); }
+
+#cv, #cv * { font-family: var(--gh-mono) !important; }
+
+/* ─── Bouton PDF ─── */
+#btn-print {
+  background: transparent;
+  color: var(--gh-green);
+  border: 1px solid var(--gh-green);
+  font-family: var(--gh-mono);
+  font-size: 12px;
+}
+#btn-print:hover { background: var(--gh-green); color: #fff; }
+
+/* ─── Switcher ─── */
+#theme-switcher { color: var(--gh-comment); font-family: var(--gh-mono); font-size: 12px; }
+#theme-switcher button {
+  background: var(--gh-panel);
+  color: var(--gh-comment);
+  border: 1px solid var(--gh-border);
+  font-family: var(--gh-mono);
+}
+#theme-switcher button.active {
+  background: var(--gh-hover);
+  color: var(--gh-fg);
+  border-color: var(--gh-link);
+}
+
+/* ─── Wrapper ─── */
+#cv {
+  background: var(--gh-bg);
+  border: 1px solid var(--gh-border);
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* ─── Header ─── */
+.cv-header {
+  background: var(--gh-panel);
+  border-bottom: 1px solid var(--gh-border);
+}
+
+.cv-name {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--gh-fg);
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.cv-title {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--gh-string);
+}
+.cv-title::before { content: "// "; color: var(--gh-border); }
+
+.cv-photo { border: 2px solid var(--gh-border); }
+
+/* ─── Sidebar ─── */
+.cv-sidebar {
+  background: var(--gh-panel);
+  border-right: 1px solid var(--gh-border);
+}
+
+.cv-sidebar h2 {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gh-keyword);
+  border-bottom: 1px solid var(--gh-border);
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+.contact-list { color: var(--gh-comment); }
+.contact-list li { padding-left: 14px; position: relative; }
+.contact-list li::before { content: "-"; position: absolute; left: 0; color: var(--gh-green); font-weight: 600; }
+.contact-list a       { color: var(--gh-link); }
+.contact-list a:hover { color: var(--gh-fg); text-decoration: none; }
+
+.skill-group h3 { font-size: 11.5px; font-weight: 600; color: var(--gh-var); }
+.skill-group ul { color: var(--gh-comment); }
+.skill-group ul li::before { content: "-"; color: var(--gh-green); }
+
+/* ─── Main ─── */
+.cv-section h2,
+.cv-body h2 {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gh-keyword);
+  border-bottom: 1px solid var(--gh-border);
+  padding-bottom: 5px;
+  margin-bottom: 14px;
+}
+
+.cv-body h3 { color: var(--gh-func); font-weight: 600; }
+
+/* Organisme + date dans les formations */
+.cv-body h3 em { font-style: normal; font-weight: 400; color: var(--gh-comment); font-size: 0.88em; }
+
+.cv-body h3 + p em {
+  font-size: 12px;
+  color: var(--gh-string);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cv-profil p           { color: var(--gh-fg); }
+.cv-body p             { color: var(--gh-fg); }
+.cv-body ul li         { color: var(--gh-fg); }
+.cv-body ul li::before { content: "-"; color: var(--gh-green); }
+.cv-body hr            { border-top: 1px solid var(--gh-border); }
+
+a { color: var(--gh-link); }

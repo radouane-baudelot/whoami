@@ -1,0 +1,251 @@
+/* ─── Print / PDF — thème light propre ─────────────────────────────────────── */
+/* Chargé uniquement via media="print" dans index.html                          */
+
+@page {
+  size: A4 portrait;
+  margin: 12mm 14mm;
+}
+
+/* ─── Reset UI ──────────────────────────────────────────────────────────────── */
+
+#btn-print,
+#theme-switcher {
+  display: none !important;
+}
+
+/* ─── Base ──────────────────────────────────────────────────────────────────── */
+
+body {
+  background: #fff !important;
+  padding: 0 !important;
+  color: #1f2328 !important;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* Remplace la police mono par Inter pour l'impression */
+#cv,
+#cv * {
+  font-family: 'Inter', Arial, sans-serif !important;
+}
+
+/* ─── Wrapper ───────────────────────────────────────────────────────────────── */
+
+#cv {
+  max-width: 100% !important;
+  width: 100% !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: #fff !important;
+}
+
+/* ─── Header ────────────────────────────────────────────────────────────────── */
+
+.cv-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  padding: 14px 18px 12px !important;
+  background: #f6f8fa !important;
+  border-bottom: 2px solid #d0d7de !important;
+}
+
+.cv-name {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  color: #1f2328 !important;
+  letter-spacing: 0.01em !important;
+}
+
+.cv-title {
+  margin-top: 4px !important;
+  font-size: 11.5px !important;
+  font-weight: 500 !important;
+  color: #0550ae !important;
+}
+
+/* Retire le préfixe // pour l'impression */
+.cv-title::before {
+  content: "" !important;
+}
+
+.cv-photo {
+  width: 68px !important;
+  height: 68px !important;
+  border: 1px solid #d0d7de !important;
+  filter: none !important;
+}
+
+/* ─── Colonnes ──────────────────────────────────────────────────────────────── */
+
+.cv-columns {
+  display: grid !important;
+  grid-template-columns: 178px 1fr !important;
+}
+
+.cv-sidebar {
+  padding: 14px 12px !important;
+  background: #f6f8fa !important;
+  border-right: 1px solid #d0d7de !important;
+}
+
+.cv-main {
+  padding: 14px 18px !important;
+}
+
+/* ─── Sections ──────────────────────────────────────────────────────────────── */
+
+.cv-section {
+  margin-bottom: 12px !important;
+}
+
+/* Titres de section */
+.cv-sidebar h2,
+.cv-section h2,
+.cv-body h2 {
+  font-size: 7.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.13em !important;
+  text-transform: uppercase !important;
+  color: #cf222e !important;
+  border-bottom: 1px solid #d0d7de !important;
+  padding-bottom: 3px !important;
+  margin-bottom: 7px !important;
+  margin-top: 0 !important;
+}
+
+.cv-body h2 {
+  margin-top: 8px !important;
+}
+
+/* ─── Contact ───────────────────────────────────────────────────────────────── */
+
+.contact-list {
+  font-size: 10px !important;
+  line-height: 1.7 !important;
+  color: #57606a !important;
+}
+
+.contact-list a {
+  color: #57606a !important;
+  text-decoration: none !important;
+}
+
+/* ─── Compétences ───────────────────────────────────────────────────────────── */
+
+.skill-group {
+  margin-bottom: 7px !important;
+}
+
+.skill-group h3 {
+  font-size: 9px !important;
+  font-weight: 600 !important;
+  color: #953800 !important;
+  margin-bottom: 2px !important;
+}
+
+.skill-group ul {
+  font-size: 9px !important;
+  line-height: 1.55 !important;
+  color: #57606a !important;
+}
+
+.skill-group ul li::before {
+  color: #1a7f37 !important;
+}
+
+/* ─── Profil ────────────────────────────────────────────────────────────────── */
+
+.cv-profil p {
+  font-size: 10.5px !important;
+  color: #1f2328 !important;
+  line-height: 1.55 !important;
+}
+
+/* ─── Corps markdown ────────────────────────────────────────────────────────── */
+
+/* Organisme + date inline dans les formations */
+.cv-body h3 em {
+  font-style: normal !important;
+  font-weight: 400 !important;
+  color: #57606a !important;
+  font-size: 0.88em !important;
+}
+
+/* Titres de poste */
+.cv-body h3 {
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  color: #8250df !important;
+  margin-top: 7px !important;
+  margin-bottom: 1px !important;
+}
+
+.cv-body h3:first-child {
+  margin-top: 0 !important;
+}
+
+/* Dates */
+.cv-body h3 + p em {
+  font-size: 9.5px !important;
+  color: #0550ae !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+/* Textes */
+.cv-body p {
+  font-size: 10px !important;
+  color: #1f2328 !important;
+  line-height: 1.5 !important;
+  margin-bottom: 3px !important;
+}
+
+/* Bullets */
+.cv-body ul {
+  margin: 4px 0 6px !important;
+}
+
+.cv-body ul li {
+  font-size: 10px !important;
+  color: #1f2328 !important;
+  line-height: 1.45 !important;
+  margin-bottom: 1px !important;
+}
+
+.cv-body ul li::before {
+  content: "-" !important;
+  color: #1a7f37 !important;
+}
+
+/* Séparateurs */
+.cv-body hr {
+  border: none !important;
+  border-top: 1px solid #eaeef2 !important;
+  margin: 3px 0 !important;
+}
+
+/* ─── Liens ─────────────────────────────────────────────────────────────────── */
+
+/* Ne pas afficher les URLs en clair */
+a::after {
+  content: none !important;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* ─── Sauts de page ─────────────────────────────────────────────────────────── */
+
+/* Empêche un titre de poste de rester seul en bas de page */
+.cv-body h3 {
+  page-break-after: avoid !important;
+}
+
+.cv-body h3 + p,
+.cv-body ul {
+  page-break-before: avoid !important;
+}
