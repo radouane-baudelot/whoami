@@ -1,6 +1,6 @@
 ---
 name: Radouane Baudelot
-title: Engineering Manager / Responsable Développement
+title: Engineering Manager / 10 ans d'expérience en développement web
 email:
 phone:
 location: Villepreux (78)
@@ -32,9 +32,7 @@ competences:
       - MySQL
       - Drupal
       - PrestaShop
-      - Git / GitHub
-      - Github actions
-      - CI/CD
+      - Git / GitHub (Actions, CI/CD)
       - Docker
       - Symfony
 
@@ -43,7 +41,7 @@ competences:
       - Cursor
       - Claude Code CLI
       - Antigravity
-      - Python / Mistral API
+      - Service web basé sur Mistral API
       - Prompt engineering
       - Mise en place de workflows IA
 
@@ -66,7 +64,7 @@ competences:
 - Garant de la qualité, de la sécurité et de la maintenabilité des plateformes
 - Mise en place et amélioration continue des pratiques techniques et organisationnelles
 - Accompagnement de la montée en compétences des collaborateurs
-- Mise en place d'un usage raisonné de l'IA, bonnes pratiques et workflows : Cursor, Claude Code CLI, services web avec Mistral API
+- Introduction d’un usage raisonné de l’IA (outils, bonnes pratiques et workflows) pour accélérer production et documentation : Cursor, Claude Code CLI, services web avec Mistral API
 
 ---
 
@@ -77,7 +75,8 @@ competences:
 - Participation à des refontes techniques, optimisations de performance et évolutions fonctionnelles
 - Collaboration étroite avec les équipes design, contenu et marketing
 
-Plateformes : Le Quotidien du Médecin, Le Quotidien du Pharmacien, Infirmiers.com, Medivia, Emploisoignant — Stack : PHP, JavaScript, MySQL, Drupal, PrestaShop, Joomla, Git
+Plateformes : Le Quotidien du Médecin, Le Quotidien du Pharmacien, Infirmiers.com, Medivia, Emploisoignant
+Stack : PHP, JavaScript, MySQL, Drupal, PrestaShop, Joomla, Git
 
 ---
 

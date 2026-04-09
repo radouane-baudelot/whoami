@@ -3,7 +3,7 @@
 
 @page {
   size: A4 portrait;
-  margin: 12mm 14mm;
+  margin: 8mm 10mm;
 }
 
 /* ─── Reset UI ──────────────────────────────────────────────────────────────── */
@@ -104,7 +104,7 @@ body {
 .cv-sidebar h2,
 .cv-section h2,
 .cv-body h2 {
-  font-size: 7.5px !important;
+  font-size: 10px !important;
   font-weight: 700 !important;
   letter-spacing: 0.13em !important;
   text-transform: uppercase !important;
@@ -139,7 +139,7 @@ body {
 }
 
 .skill-group h3 {
-  font-size: 9px !important;
+  font-size: 10px !important;
   font-weight: 600 !important;
   color: #953800 !important;
   margin-bottom: 2px !important;
@@ -187,7 +187,7 @@ body {
 }
 
 /* Dates */
-.cv-body h3 + p em {
+.cv-body h3+p em {
   font-size: 9.5px !important;
   color: #0550ae !important;
   font-style: normal !important;
@@ -245,7 +245,7 @@ a {
   page-break-after: avoid !important;
 }
 
-.cv-body h3 + p,
+.cv-body h3+p,
 .cv-body ul {
   page-break-before: avoid !important;
 }

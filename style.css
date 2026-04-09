@@ -1,6 +1,8 @@
 /* ─── Reset & base ─────────────────────────────────────────────────────────── */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -13,8 +15,13 @@ body {
   padding: 30px 24px 60px;
 }
 
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
 /* ─── Print button ──────────────────────────────────────────────────────────── */
 
@@ -95,13 +102,20 @@ a:hover { text-decoration: underline; }
   grid-template-columns: 290px 1fr;
 }
 
-.cv-sidebar { padding: 32px 28px; }
-.cv-main    { padding: 32px 44px; }
+.cv-sidebar {
+  padding: 32px 28px;
+}
+
+.cv-main {
+  padding: 32px 44px;
+}
 
 /* ─── Responsive ────────────────────────────────────────────────────────────── */
 
 @media (max-width: 700px) {
-  body { padding: 0; }
+  body {
+    padding: 0;
+  }
 
   #btn-print {
     top: auto;
@@ -134,13 +148,22 @@ a:hover { text-decoration: underline; }
     grid-template-columns: 1fr;
   }
 
-  .cv-sidebar { padding: 24px 20px; border-right: none; border-bottom: 1px solid; }
-  .cv-main    { padding: 24px 20px; }
+  .cv-sidebar {
+    padding: 24px 20px;
+    border-right: none;
+    border-bottom: 1px solid;
+  }
+
+  .cv-main {
+    padding: 24px 20px;
+  }
 }
 
 /* ─── Sections ──────────────────────────────────────────────────────────────── */
 
-.cv-section { margin-bottom: 28px; }
+.cv-section {
+  margin-bottom: 28px;
+}
 
 /* ─── Contact ───────────────────────────────────────────────────────────────── */
 
@@ -152,25 +175,81 @@ a:hover { text-decoration: underline; }
 
 /* ─── Skills ────────────────────────────────────────────────────────────────── */
 
-.skill-group              { margin-bottom: 16px; }
-.skill-group h3           { font-size: 12px; font-weight: 600; margin-bottom: 5px; }
-.skill-group ul           { list-style: none; font-size: 12.5px; line-height: 1.8; }
+.skill-group {
+  margin-bottom: 16px;
+}
+
+.skill-group h3 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.skill-group ul {
+  list-style: none;
+  font-size: 12.5px;
+  line-height: 1.8;
+}
 
 /* ─── Profil ────────────────────────────────────────────────────────────────── */
 
-.cv-profil p { font-size: 13.5px; line-height: 1.75; }
+.cv-profil p {
+  font-size: 13.5px;
+  line-height: 1.75;
+}
 
 /* ─── Markdown body ─────────────────────────────────────────────────────────── */
 
-.cv-body h2            { margin-top: 28px; margin-bottom: 16px; }
-.cv-body h3            { font-size: 13.5px; font-weight: 600; margin-bottom: 2px; margin-top: 18px; }
-.cv-body h3:first-child{ margin-top: 0; }
-.cv-body p             { font-size: 13px; margin-bottom: 6px; }
-.cv-body ul            { margin: 8px 0 10px; padding-left: 0; list-style: none; }
-.cv-body ul li         { font-size: 13px; line-height: 1.65; padding-left: 14px; position: relative; margin-bottom: 3px; }
-.cv-body ul li::before { content: "–"; position: absolute; left: 0; font-weight: 600; }
-.cv-body hr            { border: none; margin: 16px 0; }
+.cv-body h2 {
+  margin-top: 28px;
+  margin-bottom: 16px;
+}
+
+.cv-body h3 {
+  font-size: 13.5px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  margin-top: 18px;
+}
+
+.cv-body h3:first-child {
+  margin-top: 0;
+}
+
+.cv-body p {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.cv-body ul {
+  margin: 8px 0 10px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.cv-body ul li {
+  font-size: 13px;
+  line-height: 1.65;
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: 3px;
+}
+
+.cv-body ul li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+}
+
+.cv-body hr {
+  border: none;
+  margin: 16px 0;
+}
 
 /* ─── Error ─────────────────────────────────────────────────────────────────── */
 
-.cv-error { padding: 40px; font-weight: 500; }
+.cv-error {
+  padding: 40px;
+  font-weight: 500;
+}
