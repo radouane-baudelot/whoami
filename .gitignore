@@ -3,3 +3,10 @@ contact.json
 
 # Fichiers de test locaux
 *.pdf
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
