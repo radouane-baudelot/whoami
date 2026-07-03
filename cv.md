@@ -11,9 +11,12 @@ website:
 profil: >
   Avec plus de 10 ans d'expérience en développement web, j'occupe aujourd'hui
   un poste de responsable développement, à la croisée du management technique
-  et de l'opérationnel. J'accompagne une équipe pluridisciplinaire, pilote les
-  sujets techniques structurants et veille à la qualité, à la maintenabilité
-  et à l'amélioration continue des plateformes et des pratiques.
+  et de l'opérationnel. J'accompagne une équipe pluridisciplinaire, pilote les sujets techniques structurants et veille à la qualité, à la maintenabilité et à l'amélioration continue des plateformes et des pratiques.
+
+  Je mets aussi en pratique l'IA appliquée au développement : IDE et harness
+  (Cursor, Claude Code, Antigravity), connaissance de plusieurs familles de
+  LLM (ChatGPT, Claude, Mistral, Gemini), méthodologies de travail associées,
+  et conception de services IA et de pipelines RAG.
 
 competences:
   - categorie: Management
@@ -35,6 +38,7 @@ competences:
       - Git / GitHub (Actions, CI/CD)
       - Docker
       - Symfony
+      - Python
 
   - categorie: IA & Outils
     items:
@@ -44,6 +48,7 @@ competences:
       - Service web basé sur Mistral API
       - Prompt engineering
       - Mise en place de workflows IA
+      - Pipeline RAG
 
   - categorie: Méthodes
     items:
@@ -56,7 +61,7 @@ competences:
 ## Expériences professionnelles
 
 ### Groupe Profession Santé — Engineering Manager / Responsable Développement
-*avril 2025 – aujourd'hui | Paris*
+*avril 2025 – juin 2026 | Paris*
 
 - Encadrement d'une équipe pluridisciplinaire de 8 collaborateurs (développement, intégration, design, emailing)
 - Définition de la feuille de route technique avec les équipes métiers et la direction
@@ -64,7 +69,7 @@ competences:
 - Garant de la qualité, de la sécurité et de la maintenabilité des plateformes
 - Mise en place et amélioration continue des pratiques techniques et organisationnelles
 - Accompagnement de la montée en compétences des collaborateurs
-- Introduction d’un usage raisonné de l’IA (outils, bonnes pratiques et workflows) pour accélérer production et documentation : Cursor, Claude Code CLI, services web avec Mistral API
+- Introduction de l'usage de l’IA (outils, bonnes pratiques et workflows) pour accélérer production et documentation : Cursor, Claude Code CLI, services web avec Mistral API
 
 ---
 
@@ -105,10 +110,10 @@ Stack : PHP, JavaScript, MySQL, Drupal, PrestaShop, Joomla, Git
 
 ## Formation
 
-### Développeur Web PHP Orienté Objet *— IFOCOP — 2014*
+### Développeur Web PHP Orienté Objet *IFOCOP · 2014*
 
-### Master Marketing *— ESC Bordeaux — 2003 – 2006*
+### Master Marketing *ESC Bordeaux · 2003 – 2006*
 
-### Bachelor Business and Management *— Coventry University — 2002 – 2003*
+### Bachelor Business & Management *Coventry University · 2002 – 2003*
 
-### Techniques de Commercialisation *— IUT Troyes — 2000 – 2002*
+### DUT Techniques de Commercialisation *IUT Troyes · 2000 – 2002*

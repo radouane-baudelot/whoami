@@ -89,10 +89,21 @@ function renderCompetences(competences) {
   `).join('')
 }
 
+function splitFormation(body) {
+  const idx = body.indexOf('## Formation')
+  if (idx === -1) return { expBody: body, formationBody: '' }
+  return {
+    expBody: body.slice(0, idx).replace(/\n?-{3,}\s*$/, '').trim(),
+    formationBody: body.slice(idx).replace(/^## Formation\n*/, '').trim()
+  }
+}
+
 function renderCV(data, body) {
   const photoHtml = data.photo
     ? `<img src="${data.photo}" alt="${data.name}" class="cv-photo">`
     : ''
+
+  const { expBody, formationBody } = splitFormation(body)
 
   document.getElementById('cv').innerHTML = `
     <header class="cv-header">
@@ -113,15 +124,21 @@ function renderCV(data, body) {
           <h2>Compétences</h2>
           ${renderCompetences(data.competences)}
         </section>
+        <section class="cv-section">
+          <h2>Formation</h2>
+          <div class="cv-formation">
+            ${marked.parse(formationBody)}
+          </div>
+        </section>
       </aside>
 
       <main class="cv-main">
         <section class="cv-section cv-profil">
           <h2>Profil</h2>
-          <p>${data.profil}</p>
+          ${data.profil.trim().split(/\n+/).map(p => `<p>${p}</p>`).join('')}
         </section>
         <div class="cv-body">
-          ${marked.parse(body)}
+          ${marked.parse(expBody)}
         </div>
       </main>
     </div>

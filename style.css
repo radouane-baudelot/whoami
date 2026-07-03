@@ -191,11 +191,35 @@ a:hover {
   line-height: 1.8;
 }
 
+/* ─── Formation (sidebar) ───────────────────────────────────────────────────── */
+
+.cv-formation h3 {
+  font-size: 12.5px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.cv-formation h3:first-child {
+  margin-top: 0;
+}
+
+.cv-formation h3 em {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
 /* ─── Profil ────────────────────────────────────────────────────────────────── */
 
 .cv-profil p {
   font-size: 13.5px;
   line-height: 1.75;
+}
+
+.cv-profil p+p {
+  margin-top: 10px;
 }
 
 /* ─── Markdown body ─────────────────────────────────────────────────────────── */

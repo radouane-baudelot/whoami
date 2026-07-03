@@ -158,6 +158,14 @@ body {
   color: var(--gh-green);
 }
 
+.cv-formation h3 {
+  color: var(--gh-func);
+}
+
+.cv-formation h3 em {
+  color: var(--gh-comment);
+}
+
 /* ─── Main ─── */
 .cv-section h2,
 .cv-body h2 {
