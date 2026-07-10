@@ -16,7 +16,7 @@ profil: >
   Je mets aussi en pratique l'IA appliquée au développement : IDE et harness
   (Cursor, Claude Code, Antigravity), connaissance de plusieurs familles de
   LLM (ChatGPT, Claude, Mistral, Gemini), méthodologies de travail associées,
-  et conception de services IA et de pipelines RAG.
+  et conception de services IA.
 
 competences:
   - categorie: Management
@@ -69,7 +69,8 @@ competences:
 - Garant de la qualité, de la sécurité et de la maintenabilité des plateformes
 - Mise en place et amélioration continue des pratiques techniques et organisationnelles
 - Accompagnement de la montée en compétences des collaborateurs
-- Introduction de l'usage de l’IA (outils, bonnes pratiques et workflows) pour accélérer production et documentation : Cursor, Claude Code CLI, services web avec Mistral API
+- Pilotage de l'adoption de workflows IA agentique au sein de l'équipe (Cursor, Claude Code CLI, services web via Mistral API), pour accélérer production, documentation et prise de décision technique
+- Exemple concret : face à un arbitrage envisageant la suppression des commentaires pour réduire les coûts, proposition et mise en œuvre d'une solution alternative de modération par LLM (Mistral API) : coût annuel réduit de plus de 10 000€ à moins de 10€, tout en préservant la fonctionnalité et en maintenant la qualité du service.
 
 ---
 
