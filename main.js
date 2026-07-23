@@ -84,7 +84,7 @@ function renderCompetences(competences) {
   return competences.map(cat => `
     <div class="skill-group">
       <h3>${cat.categorie}</h3>
-      <ul>${cat.items.map(item => `<li>${item}</li>`).join('')}</ul>
+      <ul>${cat.items.map(item => `<li>${item.replace(/\n/g, '<br>')}</li>`).join('')}</ul>
     </div>
   `).join('')
 }
@@ -94,7 +94,7 @@ function splitFormation(body) {
   if (idx === -1) return { expBody: body, formationBody: '' }
   return {
     expBody: body.slice(0, idx).replace(/\n?-{3,}\s*$/, '').trim(),
-    formationBody: body.slice(idx).replace(/^## Formation\n*/, '').trim()
+    formationBody: body.slice(idx).replace(/^## Formations?\n*/, '').trim()
   }
 }
 
@@ -125,7 +125,7 @@ function renderCV(data, body) {
           ${renderCompetences(data.competences)}
         </section>
         <section class="cv-section">
-          <h2>Formation</h2>
+          <h2>Formations</h2>
           <div class="cv-formation">
             ${marked.parse(formationBody)}
           </div>

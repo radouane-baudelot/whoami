@@ -22,20 +22,20 @@ competences:
   - categorie: Management
     items:
       - Engineering Management
-      - Leadership technique
+      - Leadership
       - Roadmap produit
       - Pilotage des projets
       - Organisation d'équipe
       - Accompagnement
+      - Méthode agile
 
   - categorie: Tech
     items:
       - PHP
       - JavaScript
       - MySQL
-      - Drupal
-      - PrestaShop
-      - Git / GitHub (Actions, CI/CD)
+      - "CMS : Drupal, PrestaShop"
+      - "Git / GitHub (Actions, CI/CD)"
       - Docker
       - Symfony
       - Python
@@ -45,17 +45,15 @@ competences:
       - Cursor
       - Claude Code CLI
       - Antigravity
-      - Service web basé sur Mistral API
+      - "IA Générative & Agentique"
+      - "LLM : ChatGPT, Claude, Mistral, Gemini"
       - Prompt engineering
-      - Mise en place de workflows IA
-      - Pipeline RAG
+      - Workflows IA
+      - Architecture RAG (formation pratique)
 
-  - categorie: Méthodes
+  - categorie: Langues
     items:
-      - Qualité
-      - Maintenabilité
-      - Amélioration continue
-      - Pilotage de projets
+      - "Anglais :\n&nbsp;lu/compris couramment\n&nbsp;oral intermédiaire"
 ---
 
 ## Expériences professionnelles
@@ -109,12 +107,12 @@ Stack : PHP, JavaScript, MySQL, Drupal, PrestaShop, Joomla, Git
 
 ---
 
-## Formation
+## Formations
 
-### Développeur Web PHP Orienté Objet *IFOCOP · 2014*
+### Développeur Web PHP Orienté Objet *IFOCOP · 2014 - 2015*
 
 ### Master Marketing *ESC Bordeaux · 2003 – 2006*
 
-### Bachelor Business & Management *Coventry University · 2002 – 2003*
+### Bachelor European Engineering Business & Management *Coventry University · 2002 – 2003*
 
 ### DUT Techniques de Commercialisation *IUT Troyes · 2000 – 2002*
