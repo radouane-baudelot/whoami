@@ -35,6 +35,20 @@ window.switchTheme = function (theme) {
   })
 }
 
+/* ─── CV selection ──────────────────────────────────────────────────────────── */
+
+const CV_ID_PATTERN = /^[A-Za-z0-9]{4,12}$/
+
+function getCVId() {
+  const param = new URLSearchParams(window.location.search).get('cv')
+  return param && CV_ID_PATTERN.test(param) ? param : null
+}
+
+function getCVPath() {
+  const id = getCVId()
+  return id ? `cv/${id}.md` : 'cv.md'
+}
+
 /* ─── CV ─────────────────────────────────────────────────────────────────────── */
 
 async function loadContact() {
@@ -48,16 +62,19 @@ async function loadContact() {
 
 async function loadCV() {
   try {
+    const cvPath = getCVPath()
     const [cvText, contact] = await Promise.all([
-      fetch('cv.md').then(r => {
-        if (!r.ok) throw new Error('Impossible de charger cv.md')
+      fetch(cvPath).then(r => {
+        if (!r.ok) {
+          throw new Error(cvPath === 'cv.md' ? 'Impossible de charger cv.md' : 'CV introuvable')
+        }
         return r.text()
       }),
       loadContact()
     ])
 
     const match = cvText.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)/)
-    if (!match) throw new Error('Frontmatter introuvable dans cv.md')
+    if (!match) throw new Error(`Frontmatter introuvable dans ${cvPath}`)
 
     const data = { ...jsyaml.load(match[1]), ...contact }
     const body = match[2].trim()
