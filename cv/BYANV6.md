@@ -1,12 +1,12 @@
 ---
 name: Radouane Baudelot
 title: Développeur PHP Senior — 10 ans d'expérience en développement web
-email:
-phone:
+email: 
+phone: 
 location: Villepreux (78)
 linkedin: https://www.linkedin.com/in/radouane-baudelot-a43597a/
-github:
-website:
+github: 
+website: 
 
 profil: >
   Avec plus de 10 ans d'expérience en développement PHP, j'ai construit mon
@@ -32,14 +32,16 @@ competences:
       - PHPUnit
       - "Git / GitHub (Actions, CI/CD)"
       - Docker
-      - Python
       - "Symfony (montée en compétences)"
-      - Ansible (Provisionning Serveur)
+      - Python
+      - Ansible (Provisionnement Serveur)
 
   - categorie: Management
     items:
       - Leadership
-      - Accompagnement d'équipe
+      - Accompagnement et organisation d'équipe
+      - Revue de code
+      - Gestion de la delivery
 
   - categorie: IA & Outils
     items:
@@ -62,26 +64,22 @@ competences:
 ### Groupe Profession Santé — Engineering Manager / Responsable Développement
 *avril 2025 – juin 2026 | Paris*
 
-- Pilotage de l'adoption de workflows IA agentique au sein de l'équipe (Cursor, Claude Code CLI, services web via Mistral API), pour accélérer production, documentation et prise de décision technique
-- Exemple concret : face à un arbitrage envisageant la suppression des commentaires pour réduire les coûts, proposition et mise en œuvre d'une solution alternative de modération par LLM (Mistral API) : coût annuel réduit de plus de 10 000€ à moins de 10€, tout en préservant la fonctionnalité et en maintenant la qualité du service.
-- Garant de la qualité, de la sécurité et de la maintenabilité des plateformes
-- Supervision des projets de la conception à la mise en production
-- Mise en place et amélioration continue des pratiques techniques et organisationnelles
-- Encadrement d'une équipe pluridisciplinaire de 8 collaborateurs (développement, intégration, design, emailing)
-- Définition de la feuille de route technique avec les équipes métiers et la direction
-- Accompagnement de la montée en compétences des collaborateurs
+- Posture hands-on : contribution technique directe en parallèle du management — revue de code, développement sur les sujets complexes ou sensibles
+- Pilotage de l'adoption de workflows IA agentique dans l'équipe (Cursor, Claude Code CLI, services via Mistral API) pour accélérer la delivery et la documentation
+- Exemple concret : face à un arbitrage envisageant la suppression des commentaires pour réduire les coûts, mise en œuvre d'une modération par LLM (Mistral API) — coût annuel ramené de plus de 10 000 € à moins de 10 €, sans perte de fonctionnalité ni de qualité
+- Responsable de la delivery : de la conception à la mise en production, priorisation et arbitrages avec les équipes métiers et la direction, garant de la qualité, de la sécurité et de la maintenabilité des plateformes
+- Encadrement d'une équipe pluridisciplinaire de 8 collaborateurs (développement, intégration, design, emailing) et accompagnement de leur montée en compétences
 
 ---
 
 ### Groupe Profession Santé — Développeur Web
 *septembre 2015 – avril 2025 | Paris*
 
-- Développement et maintenance de plateformes média majeures du secteur santé
-- Participation à des refontes techniques, optimisations de performance et évolutions fonctionnelles
-- Collaboration étroite avec les équipes design, contenu et marketing
-
-Plateformes : Le Quotidien du Médecin, Le Quotidien du Pharmacien, Infirmiers.com, Medivia, Emploisoignant
-Stack : PHP, JavaScript, MySQL, Drupal, PrestaShop, Joomla, Git
+- Développement et maintenance d'un portefeuille de sites média du secteur santé : 460 000 inscrits, 2 M de visites et 4 M de pages vues par mois
+- Trois typologies : presse (Le Quotidien du Médecin, Le Quotidien du Pharmacien, Infirmiers.com), e-commerce sur PrestaShop (Medivia, formation.infirmiers.com), job boards (Emploisoignant, Emploimedecin)
+- Refontes et migrations : Drupal 7 → 8 → 9 ; Drupal Commerce → PrestaShop (Medivia) ; site de vente de formations → PrestaShop (formation.infirmiers.com) ; Joomla → Drupal
+- Migration de l'hébergement de Claranet vers une infrastructure OVH reprise en interne (Provisionnement du serveur avec Ansible, tests, sécurité, déploiement, monitoring, WAF)
+- Développement en PHP 7/8 (POO) et rôle d'interface entre les équipes fonctionnelles et la technique ; proximité métier et pragmatisme qui ont conduit à la prise du poste d'Engineering Manager
 
 ---
 
@@ -95,9 +93,7 @@ Stack : PHP, JavaScript, MySQL, Drupal, PrestaShop, Joomla, Git
 ### OpenClassrooms — Directeur de Clientèle Web
 *avril 2010 – janvier 2014 | Paris*
 
-- Gestion d'un portefeuille de grands comptes digitaux
-- Coordination de projets web
-- Interface entre clients et équipes techniques
+- Gestion d'un portefeuille de grands comptes digitaux, coordination de projets web et interface entre clients et équipes techniques
 
 ---
 

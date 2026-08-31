@@ -97,7 +97,7 @@ body {
 /* ─── Sections ──────────────────────────────────────────────────────────────── */
 
 .cv-section {
-  margin-bottom: 12px !important;
+  margin-bottom: 8px !important;
 }
 
 /* Titres de section */
@@ -182,11 +182,11 @@ body {
 .cv-profil p {
   font-size: 10.5px !important;
   color: #1f2328 !important;
-  line-height: 1.55 !important;
+  line-height: 1.45 !important;
 }
 
 .cv-profil p+p {
-  margin-top: 6px !important;
+  margin-top: 5px !important;
 }
 
 /* ─── Corps markdown ────────────────────────────────────────────────────────── */
@@ -204,7 +204,7 @@ body {
   font-size: 11px !important;
   font-weight: 600 !important;
   color: #8250df !important;
-  margin-top: 7px !important;
+  margin-top: 5px !important;
   margin-bottom: 1px !important;
 }
 
@@ -224,19 +224,19 @@ body {
 .cv-body p {
   font-size: 10px !important;
   color: #1f2328 !important;
-  line-height: 1.5 !important;
-  margin-bottom: 3px !important;
+  line-height: 1.4 !important;
+  margin-bottom: 2px !important;
 }
 
 /* Bullets */
 .cv-body ul {
-  margin: 4px 0 6px !important;
+  margin: 3px 0 4px !important;
 }
 
 .cv-body ul li {
   font-size: 10px !important;
   color: #1f2328 !important;
-  line-height: 1.45 !important;
+  line-height: 1.35 !important;
   margin-bottom: 1px !important;
 }
 
@@ -249,7 +249,7 @@ body {
 .cv-body hr {
   border: none !important;
   border-top: 1px solid #eaeef2 !important;
-  margin: 3px 0 !important;
+  margin: 2px 0 !important;
 }
 
 /* ─── Liens ─────────────────────────────────────────────────────────────────── */

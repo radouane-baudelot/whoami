@@ -1,0 +1,121 @@
+---
+name: Radouane Baudelot
+title: Engineering Manager / 10 ans d'expérience en développement web
+email:
+phone:
+location: Villepreux (78)
+linkedin: https://www.linkedin.com/in/radouane-baudelot-a43597a/
+github:
+website:
+
+profil: >
+  Avec plus de 10 ans d'expérience en développement web, j'occupe aujourd'hui
+  un poste de responsable développement, à la croisée du management technique
+  et de l'opérationnel. J'accompagne une équipe pluridisciplinaire, pilote les sujets techniques structurants et veille à la qualité, à la maintenabilité et à l'amélioration continue des plateformes et des pratiques.
+
+  Je mets aussi en pratique l'IA appliquée au développement : IDE et harness
+  (Cursor, Claude Code, Antigravity), connaissance de plusieurs familles de
+  LLM (ChatGPT, Claude, Mistral, Gemini), méthodologies de travail associées,
+  et conception de services IA.
+
+competences:
+  - categorie: Management
+    items:
+      - Engineering Management
+      - Leadership
+      - Pilotage des projets
+      - Organisation d'équipe
+      - Accompagnement
+      - Méthode agile
+      - Revue de code
+      - Gestion de la delivery
+
+  - categorie: Tech
+    items:
+      - PHP
+      - JavaScript
+      - MySQL
+      - "CMS : Drupal, PrestaShop"
+      - "Git / GitHub (Actions, CI/CD)"
+      - Docker
+      - Symfony (montée en compétences)
+      - Python
+      - Ansible (Provisionnement Serveur)
+
+  - categorie: IA & Outils
+    items:
+      - Cursor
+      - Claude Code CLI
+      - Antigravity
+      - "IA Générative & Agentique"
+      - "LLM : ChatGPT, Claude, Mistral, Gemini"
+      - Prompt engineering
+      - Workflows IA
+      - Architecture RAG (formation pratique)
+
+  - categorie: Langues
+    items:
+      - "Anglais :\n&nbsp;lu/compris couramment\n&nbsp;oral intermédiaire"
+---
+
+## Expériences professionnelles
+
+### Groupe Profession Santé — Engineering Manager / Responsable Développement
+*avril 2025 – juin 2026 | Paris*
+
+- Encadrement d'une équipe pluridisciplinaire de 8 collaborateurs (développement, intégration, design, emailing)
+- Définition de la feuille de route technique avec les équipes métiers et la direction
+- Supervision des projets de la conception à la mise en production
+- Garant de la qualité, de la sécurité et de la maintenabilité des plateformes
+- Posture hands-on : contribution technique directe maintenue en parallèle du management — revue de code, développement sur les sujets complexes ou sensibles, prototypage des solutions IA
+- Mise en place et amélioration continue des pratiques techniques et organisationnelles
+- Accompagnement de la montée en compétences des collaborateurs
+- Pilotage de l'adoption de workflows IA agentique au sein de l'équipe (Cursor, Claude Code CLI, services web via Mistral API), pour accélérer production, documentation et prise de décision technique
+- Exemple concret : face à un arbitrage envisageant la suppression des commentaires pour réduire les coûts, proposition et mise en œuvre d'une solution alternative de modération par LLM (Mistral API) : coût annuel réduit de plus de 10 000€ à moins de 10€, tout en préservant la fonctionnalité et en maintenant la qualité du service.
+
+---
+
+### Groupe Profession Santé — Développeur Web
+*septembre 2015 – avril 2025 | Paris*
+
+- Développement et maintenance de plateformes média majeures du secteur santé
+- Participation à des refontes techniques, optimisations de performance et évolutions fonctionnelles
+- Collaboration étroite avec les équipes design, contenu et marketing
+
+Plateformes : Le Quotidien du Médecin, Le Quotidien du Pharmacien, Infirmiers.com, Medivia, Emploisoignant
+Stack : PHP, JavaScript, MySQL, Drupal, PrestaShop, Joomla, Git
+
+---
+
+### A Little Market / Etsy France — Développeur Web Junior
+*octobre 2014 – mars 2015 | Paris*
+
+- Participation au développement d'une plateforme e-commerce à fort trafic
+
+---
+
+### OpenClassrooms — Directeur de Clientèle Web
+*avril 2010 – janvier 2014 | Paris*
+
+- Gestion d'un portefeuille de grands comptes digitaux
+- Coordination de projets web
+- Interface entre clients et équipes techniques
+
+---
+
+### Simply Market — Manager de Secteur
+*juin 2006 – novembre 2009*
+
+- Management d'équipe et gestion opérationnelle
+
+---
+
+## Formations
+
+### Développeur Web PHP Orienté Objet *IFOCOP · 2014 - 2015*
+
+### Master Marketing *ESC Bordeaux · 2003 – 2006*
+
+### Bachelor European Engineering Business & Management *Coventry University · 2002 – 2003*
+
+### DUT Techniques de Commercialisation *IUT Troyes · 2000 – 2002*
