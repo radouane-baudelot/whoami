@@ -97,7 +97,7 @@ body {
 /* ─── Sections ──────────────────────────────────────────────────────────────── */
 
 .cv-section {
-  margin-bottom: 8px !important;
+  margin-bottom: 10px !important;
 }
 
 /* Titres de section */
@@ -182,11 +182,11 @@ body {
 .cv-profil p {
   font-size: 10.5px !important;
   color: #1f2328 !important;
-  line-height: 1.45 !important;
+  line-height: 1.48 !important;
 }
 
 .cv-profil p+p {
-  margin-top: 5px !important;
+  margin-top: 6px !important;
 }
 
 /* ─── Corps markdown ────────────────────────────────────────────────────────── */
@@ -204,8 +204,8 @@ body {
   font-size: 11px !important;
   font-weight: 600 !important;
   color: #8250df !important;
-  margin-top: 5px !important;
-  margin-bottom: 1px !important;
+  margin-top: 9px !important;
+  margin-bottom: 2px !important;
 }
 
 .cv-body h3:first-child {
@@ -224,20 +224,20 @@ body {
 .cv-body p {
   font-size: 10px !important;
   color: #1f2328 !important;
-  line-height: 1.4 !important;
+  line-height: 1.45 !important;
   margin-bottom: 2px !important;
 }
 
 /* Bullets */
 .cv-body ul {
-  margin: 3px 0 4px !important;
+  margin: 4px 0 6px !important;
 }
 
 .cv-body ul li {
   font-size: 10px !important;
   color: #1f2328 !important;
-  line-height: 1.35 !important;
-  margin-bottom: 1px !important;
+  line-height: 1.42 !important;
+  margin-bottom: 4px !important;
 }
 
 .cv-body ul li::before {
@@ -249,7 +249,7 @@ body {
 .cv-body hr {
   border: none !important;
   border-top: 1px solid #eaeef2 !important;
-  margin: 2px 0 !important;
+  margin: 4px 0 !important;
 }
 
 /* ─── Liens ─────────────────────────────────────────────────────────────────── */
